@@ -1,6 +1,9 @@
 import React from 'react'
 import Character from './Character'
 
+
+console.log('Hello dear')
+
 const App = ({side}) => {
   if (!side) {
     side = 'light'
